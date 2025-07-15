@@ -1,0 +1,49 @@
+
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julia's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!--
+#Navigation Bar網站導覽列結構
+	nav表示語意標籤,表示這區是導覽列 
+	class="navbar":把此元素指定為屬於CSS的.navbar類別
+	div class="nav-logo"：div是一個容器，導覽列左側logo區;"nav-logo":css樣式名稱，可針對他設定字體大小、顏色、粗細
+	ul class="nav-links":ul為unordered list(無排序清單)，列出每個頁面的導覽按鍵;"nav-links":排版清單選項
+-->
+<body>
+
+  <nav class="navbar"> 
+  
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+<!--# li(list item):清單裡的項目;a(anchor):建立url; href=""指定此連結所要開啟的網址;Home:顯示的文字-->
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+<!--
+主視覺區Hero section[header頁面/區塊標頭]
+	class="hero":給header加上一個叫hero的css樣式類別,使他能被style.css中的.hero控制樣式
+  -->
+  <header class="hero">
+    <h1>Hello, I'm Julia! </h1>
+	<h3>A Ph.D student in the Department of Industrial Engineering and Engineering Management at NTHU.</h3>
+    <p>Cross-border Project Lead | Project Owner in Cleantech innovation </p>
+	<img src="images/1721532545517.jpg" alt="Design Banner" class="hero-img" /><br>
+  <!--target="_blank":在新分頁開起連結-->
+  <ul>
+     <li> <a href="https://www.linkedin.com/in/julia-chang-9b55a2b5/" target="_blank">My LinkedIn</a></li><br>
+     <li><a href="https://www.jsrtexgroup.com/" target="_blank">The company I work for</a></li>
+  </ul>
+  </header>
+</body>
+</html>
+
+
+
+
